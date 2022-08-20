@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+@media screen and (min-width: 720px) {
+    h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+}
+
+.routine {
+    font-size: larger;
+    line-height: 150%;
+}
+@media screen and (min-width: 720px) {
+    .routine {
+        display: block;
+        margin-left: 20%;
+        font-size: x-large;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.liens {
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+@media screen and (min-width: 720px) {
+    .liens {
+        margin-left: 20%;
+        margin-top: 3rem;
+        line-height: 300%;
+    }
+}
